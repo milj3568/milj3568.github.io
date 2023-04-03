@@ -1,0 +1,143 @@
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(pexels-emre-can-acer-2418435.jpg);
+    background-size: cover;
+    background-position: end;
+}
+.navbar-nav {
+    margin:auto;
+    text-align: center;
+}
+
+.navbar-toggler {
+    position:relative;
+    left: 1px;
+    right:1px;
+    margin: 0 auto;
+}
+
+button .btn {
+    background-color: #61a6ab;
+    border-radius: 30px;
+}
+h1{
+    margin: 20px 0px 20px;
+    font-size: 72px;
+}
+span{
+    font-weight: bold
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #61a6ab;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #61a6ab;
+    top: 6px;
+    right: 6px;
+}
+.pages {
+    background-color:#a5a5a5;
+    height: 100vh;
+    width: 100%
+}
+.wineCarousel {
+    width: 100%;
+    height: 100px;
+}
+
+@media (max-width:799px) {
+    #wineCarousel {
+        display:none !important;
+    }
+}
+
+@media (min-width:800px) {
+    #wineCarouselMobile {
+        display:none !important;
+    }
+}
+
+html,
+body,
+#background {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #a5a5a5;
+}
+.contactForm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 35px;
+    border-radius: 30px;
+    background-color: #a5a5a5;
+}
+.contactForm .row {
+    display: flex;
+    flex-flow: wrap;
+    margin: 0 -15px
+}
+.contactForm .row .col-12 {
+    flex: 0 0 100%;
+    padding: 0 15px 15px;
+}
+
+.contactForm .row .col-12.half {
+    flex: 0 0 50%;
+}
+
+.contactForm input,textarea {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 0 0 30px;
+    background-color: #61a6ab;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 0;
+}
+
+.contactForm textarea {
+    height:150px;
+    resize: none;
+}
+
+.contactForm input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    border: 2px solid #61a6ab;
+}
+
+.blogcard {
+    border: 2px solid #61a6ab;
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    border-radius: 30px;
+    font-family: Helvetica;
+    color: #303030;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
